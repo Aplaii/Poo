@@ -1,4 +1,4 @@
-package TP3;
+package TP3.ex1;
 
 public class SmartPhone extends FeaturePhone {
     boolean _gps;

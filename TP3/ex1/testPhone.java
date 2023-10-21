@@ -1,4 +1,4 @@
-package TP3;
+package TP3.ex1;
 
 public class testPhone {
     public static void main (String [] args) {
