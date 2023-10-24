@@ -1,12 +1,14 @@
-package TP2;
+package TP2.ex2;
 
 public class CompteBancaire {
 	private double solde;
 	private int identif;
+	static int nmcompte = 0;
 	
 	public CompteBancaire (int g) {
 		this.setSolde(0);
-		this.identif = g;
+		this.identif = CompteBancaire.nmcompte + 1;
+		CompteBancaire.nmcompte++;
 	}
 	
 	public CompteBancaire (int g, int m) {

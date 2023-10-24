@@ -1,4 +1,4 @@
-package TP2;
+package TP2.ex1;
 
 public class Point {
 	private double x;

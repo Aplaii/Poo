@@ -1,4 +1,4 @@
-package TP2;
+package TP2.ex2;
 
 public class ComptePayant extends CompteBancaire {
 	public ComptePayant(int g) {

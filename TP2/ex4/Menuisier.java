@@ -1,4 +1,4 @@
-package TP2;
+package TP2.ex4;
 
 public class Menuisier extends Personne {
     public Menuisier (String n){

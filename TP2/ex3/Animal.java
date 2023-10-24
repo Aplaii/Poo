@@ -1,6 +1,6 @@
-package TP2;
+package TP2.ex3;
 
-public class Animal {
+public abstract class Animal {
     private String nom;
     private String noise;
     private String race;
@@ -17,8 +17,6 @@ public class Animal {
         return "Nom: "+this.nom+"\nRace: "+this.race+"\nAge: "+this.age+"\nBruit: "+this.noise;
     }
 
-    public void setNoise(String n){
-        this.noise = n;;
-    }
+    public abstract void setNoise(String n);
 }
 

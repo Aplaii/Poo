@@ -1,4 +1,4 @@
-package TP2;
+package TP2.ex4;
 
 public class TestMetiers {
     public static void main ( String [] argv ) {
